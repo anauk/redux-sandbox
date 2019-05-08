@@ -25,8 +25,8 @@ let state = reducer(initialState, {type:'INC'});
 console.log(state);
 state = reducer(state, {ype:'INC'});
 console.log(state);*/
-//3-case
 
+//3-case- когда нет state и не знаем каое действие
 const reducer =(state=0, action)=>{
 
     switch(action.type){
